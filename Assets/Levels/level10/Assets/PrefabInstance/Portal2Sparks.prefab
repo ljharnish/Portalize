@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1908265903407493}
+  m_IsPrefabParent: 1
+--- !u!1 &1908265903407493
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4881563956348306}
+  m_Layer: 4
+  m_Name: Portal2Sparks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4881563956348306
+Transform:
+  m_GameObject: {fileID: 1908265903407493}
+  m_LocalRotation: {x: 0.07999156, y: 0.7025676, z: 0.7025677, w: -0.07999206}
+  m_LocalPosition: {x: 7.477114, y: -1.9995, z: -32.52491}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4494049942655076}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.99999, y: 12.99104, z: 180}
+--- !u!1 &1633384865171288
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4494049942655076}
+  - component: {fileID: 108578605201838959}
+  - component: {fileID: 114954638002880376}
+  m_Layer: 4
+  m_Name: LensFlare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4494049942655076
+Transform:
+  m_GameObject: {fileID: 1633384865171288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4881563956348306}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &108578605201838959
+Light:
+  m_GameObject: {fileID: 1633384865171288}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.09090912, g: 1, b: 0, a: 1}
+  m_Intensity: 1.242248
+  m_Range: 0.1656235
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: 0
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0
+    m_NearPlane: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 257
+  m_Lightmapping: 1
+  m_AreaSize: {x: 0, y: 0}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 0
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &114954638002880376
+MonoBehaviour:
+  m_GameObject: {fileID: 1633384865171288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdc413fa1c8f0b4abac34ebbee9bdbe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
